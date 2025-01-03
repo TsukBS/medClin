@@ -1,0 +1,136 @@
+/*Small laptops a aparti de 1100px*/
+
+@media (max-width: 1100px){
+    /*Nao precisou*/
+}
+
+/*Tablet aparti de 900px*/
+
+@media (max-width: 900px){
+    .main-banner p{
+        padding: 0.6rem;
+    }
+
+    .searchexam-container{
+        padding: 2rem 4rem;
+    }
+}
+
+/*Celular 576px*/
+
+@media (max-width: 576px){
+
+    html, body{
+        overflow-x: hidden;
+    }
+
+    .navbar-container{
+        display: flex;
+        position: relative;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    .navbar-itens{
+        display: none;
+    }
+    
+
+    .fa-bars{
+        display: flex;
+        justify-content: end;
+        font-size: 25px;
+
+        margin: 5px 15px;
+        
+        
+    }
+
+    .desactive-btn-bar{
+        display: none;
+    }
+
+    .menu-mobile-container{
+        width: 100%;
+        
+    }
+
+    .display-x{
+        display: flex;
+        justify-content: flex-end;
+        font-size: 25px;
+
+        margin: 5px 15px;
+
+    }
+
+    .menu-mobile{
+        display: none;
+        
+    }
+
+    .menu-mobile-active{
+        position: fixed;
+        top: 0px;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        line-height: 60px;
+        width: 80%;
+        height: 100vh;
+
+        background-color: #50726fbe;
+        
+
+    }
+
+    .menu-mobile-active li{
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .menu-mobile-active li:hover, .menu-mobile-active li:active{
+        cursor: pointer;
+        background-color: #28A79B;
+        transition: 0.5s;
+    }
+
+    .main-banner p{
+        padding: 0 2rem;
+    }
+
+    .service-container ul{
+        flex-direction: column;
+    }
+
+    .especialidade-exames-container{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .oferta{
+        margin: 0 auto;
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .searchexam-container h2{
+        font-size: 30px;
+    }
+
+    .searchexam-container input[type="text"]{
+        width: 100%;
+    }
+
+    .contact-container{
+        padding: 3rem 2rem;
+    }
+
+    .contact-container input, .contact-container textarea{
+        width: 100%;
+        margin: 10px 0;
+    }
+}

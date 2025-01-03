@@ -1,0 +1,303 @@
+/*Nav BAr*/
+
+.navbar-container{
+    width: 100%;
+    height: 80px;
+    background-color: #28A79B;
+    padding: 0 2rem;
+}
+
+nav{
+    position: relative;
+}
+
+.logo{
+    width: 50px;
+    margin-top: 15px;
+    border-radius: 50%;
+}
+
+
+.navbar-itens{
+    position: absolute;
+    right: 0;
+    height: 80px;
+    line-height: 80px;
+    margin: 0;
+    display: inline-block;
+}
+
+.fa-bars, .menu-mobile, .fa-times{
+    display: none;
+}
+
+.navbar-itens li{
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 25px;
+}
+
+.navbar-itens a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.navbar-itens a:hover{
+    color: #ccc;
+
+}
+
+/*Main baneer*/
+
+.main-banner{
+    background-image: url(../img/images.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10rem 0;
+}
+
+.main-banner h1, .main-banner p{
+    color:  #fff;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: #000 3px 2px 3px;
+}
+
+.main-banner h1{
+    font-size: 54px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.main-banner p{
+    font-size: 32px;
+}
+
+/*Services*/
+
+.service-container{
+    padding: 5rem 0;
+}
+
+.service-container ul{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.service-container li{
+    flex: 1 1 200px;
+    text-align: center;
+    padding: 20px;
+}
+
+.fas{
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.fa-user-md{
+    color: #033590;
+}
+
+.fa-stopwatch{
+    color: #28A79B;
+}
+
+.fa-heartbeat{
+    color: #f00;
+}
+
+.service-container h3{
+  margin-bottom: 25px;  
+}
+
+.service-container p{
+    line-height: 24px;
+}
+
+
+/*Exp*/
+
+.pricing-container{
+    padding: 5rem;
+    text-align: center;
+}
+
+.pricing-container h2{
+    font-size: 36px;
+}
+
+.pricing-container p{
+    font-size: 20px;
+
+}
+
+
+.especialidade-exames-container{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin: 50px auto 0;
+}
+
+
+.oferta{
+    flex: 1;
+    max-width: 275px;
+    margin: 0 25px;
+}
+
+.oferta ul{
+    padding: 0;
+}
+
+.oferta li{
+    height: 50px;
+    line-height: 50px;
+    background-color: #e8e9ea;
+    color: #333;
+}
+
+.oferta .price{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+
+    background-color: #2cc762;
+    color: #fff;
+    text-align: center;
+    line-height: 120px;
+    margin: 0 auto -50px;
+    font-size: 18px;
+    position: relative;
+}
+
+.oferta .exames, .oferta .especialidade{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    background-color:  #202b34;
+    padding: 50px 0;
+}
+
+.oferta .btn-exp{
+    background-color: #2cc762;
+    color: #fff;
+    font-size: 24px;
+    height: 75px;
+    line-height: 75px;
+    cursor: pointer;
+}
+
+.oferta .btn-exp:hover, .oferta .btn-exp:active{
+    color: #2cc762;
+    background-color: #ccc;
+}
+
+
+/*searchexam-container*/
+
+.searchexam-container{
+    background-color: #28A79B;
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.searchexam-container h2{
+    color: #fff;
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.searchexam-container p{
+    color: #e8e9ea;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.searchexam-container input{
+    display: block;
+    border: none;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.searchexam-container input[type="text"]{
+    width: 60%;
+    padding: 20px;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.searchexam-container input[type="submit"]{
+    background-color: #2cc762;
+    padding: 15px 30px;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.searchexam-container input[type="submit"]:hover{
+    opacity: 1;
+}
+
+/*Contact-Form*/
+
+.contact-container{
+    text-align: center;
+    padding: 5rem 0  2rem 0;
+}
+
+.contact-container h2{
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.contact-container p{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.contact-container input, .contact-container textarea{
+    width: 200px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 16px;
+    border: 1px solid #28A79B;
+    margin: 0 10px 20px;
+
+}
+
+.contact-container textarea{
+    display: block;
+    margin:  0 auto 20px;
+    width: 470px;
+    height: 150px;
+}
+
+.contact-container input[type="submit"]{
+    display: block;
+    margin: 0 auto;
+    background-color: #0edbc7;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+.contact-container input[type="submit"]:hover{
+    opacity: 1;
+}
+
+/*Footer*/
+
+footer{
+    text-align: center;
+    font-weight: bold;
+    background-color: #000;
+}
+
+
