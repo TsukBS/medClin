@@ -121,7 +121,7 @@
         font-size: 30px;
     }
 
-    .searchexam-container input[type="text"]{
+    .searchexam-container input[type="text"], .searchexam-container input[type="submit"]{
         width: 100%;
     }
 
